@@ -6,7 +6,7 @@
 #    By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/01 11:14:37 by ssaavedr          #+#    #+#              #
-#    Updated: 2026/10/01 13:10:24 by ssaavedr         ###   ########.fr        #
+#    Updated: 2026/10/02 17:28:48 by ssaavedr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,10 +18,10 @@ CFLAGS = -Wall -Wextra -Werror
 SRCS =	ft_isalpha.c \
 		ft_isdigit.c \
 		ft_isalnum.c \
-# 		ft_isascii.c \
-# 		ft_isprint.c \
-# 		ft_strlen.c \
-# 		ft_memset.c \
+		ft_isascii.c \
+		ft_isprint.c \
+		ft_strlen.c \
+		ft_memset.c \
 # 		ft_bzero.c \
 # 		ft_memcpy.c \
 # 		ft_memcpy.c \
