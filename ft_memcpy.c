@@ -1,37 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memset copy.c                                   :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/02 16:53:48 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/02 20:28:46 by ssaavedr         ###   ########.fr       */
+/*   Created: 2026/10/04 14:23:29 by ssaavedr          #+#    #+#             */
+/*   Updated: 2026/10/04 15:55:06 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-
-void *ft_memset(void *s, int c, size_t n)
+void *ft_memcpy(void *dest, const void *src, size_t n)
 {
-	size_t	i;
-
-	i = 0;
-	while(i < n)
-	{
-		((unsigned char *)s)[i] = (unsigned char)c;
-		i++;
-	}
+	if (!dest && !src)
 	return (0);
+		while (n > 0)
+		{
+		n--;
+		((unsigned char *) dest)[n] = ((unsigned char *) src)[n];
+		}
+	return (dest);
 }
 // #include <stdio.h>
+
 // int	main(void)
 // {
-// 	int	c = 'c';
-// 	size_t n = 50;
-// 	char	s[] = "Hello my friend";
-// 	printf("%s\n", s);
-// 	ft_memset(s, c, n);
-// 	printf("%s\n", s);
+// size_t n = 9;
+// char	src[] = "Hello my friend";
+// char	dest[50];
+
+// printf("%s\n", src);
+// ft_memcpy(dest, src, n);
+// printf("%s\n", dest);
 // }

@@ -6,7 +6,7 @@
 #    By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/01 11:14:37 by ssaavedr          #+#    #+#              #
-#    Updated: 2026/10/02 17:28:48 by ssaavedr         ###   ########.fr        #
+#    Updated: 2026/10/04 14:23:04 by ssaavedr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,9 +22,8 @@ SRCS =	ft_isalpha.c \
 		ft_isprint.c \
 		ft_strlen.c \
 		ft_memset.c \
-# 		ft_bzero.c \
-# 		ft_memcpy.c \
-# 		ft_memcpy.c \
+		ft_bzero.c \
+		ft_memcpy.c \
 # 		ft_memmove.c \
 # 		ft_strlcpy.c \
 # 		ft_toupper.c \

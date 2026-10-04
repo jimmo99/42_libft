@@ -1,29 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/01 11:39:23 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/04 13:08:43 by ssaavedr         ###   ########.fr       */
+/*   Created: 2026/10/04 12:27:29 by ssaavedr          #+#    #+#             */
+/*   Updated: 2026/10/04 14:11:36 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-#include <stddef.h> //needed for memset
-#include <strings.h> //needed for bzero
-
-int ft_isalpha(int c);
-int	ft_isdigit(int c);
-int	ft_isalnum(int c);
-int	ft_ascii(int c);
-int	ft_isprint(int c);
-int	ft_strlen(char *str);
-void *ft_memset(void *s, int c, size_t n);
-void ft_bzero(void *s, size_t n);
-
-
-#endif
+void ft_bzero(void *s, size_t n)
+{
+	ft_memset(s, '\0', n);
+}
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	size_t n = 5;
+// 	char	s[] = "Hello my friend";
+// 	printf("%s\n", s);
+// 	ft_bzero(s, n);
+// 	printf("%s\n", s + 5);
+// 	return (0);
+// }
