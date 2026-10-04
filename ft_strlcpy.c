@@ -1,37 +1,42 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/04 14:23:29 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/04 18:09:11 by ssaavedr         ###   ########.fr       */
+/*   Created: 2026/10/04 18:51:42 by ssaavedr          #+#    #+#             */
+/*   Updated: 2026/10/04 19:33:02 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memcpy(void *dest, const void *src, size_t n)
+size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
-	if (!dest && !src)
-		return (0);
-	while (n > 0)
+	size_t	i;
+	size_t	src_len;
+
+	src_len = ft_strlen(src);
+	if (size == 0)
+		return (src_len);
+	i = 0;
+	while (src[i] && i < size -1)
 	{
-		n--;
-		((unsigned char *) dest)[n] = ((unsigned char *) src)[n];
+		dst[i] = src[i];
+		i++;
 	}
-	return (dest);
+	dst[i] = '\0';
+	return (src_len);
 }
 // #include <stdio.h>
 
-// int	main(void)
+// int	main (void)
 // {
-// size_t n = 9;
-// char	src[] = "Hello my friend";
-// char	dest[50];
+// 	char d[6] = "byee";
+// 	size_t result;
 
-// printf("%s\n", src);
-// ft_memcpy(dest, src, n);
-// printf("%s\n", dest);
+// 	result = ft_strlcpy(d, "hellow", 6);
+// 	printf("%s\n", d);
+// 	printf("%zu\n", result);
 // }
