@@ -6,7 +6,7 @@
 #    By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/01 11:14:37 by ssaavedr          #+#    #+#              #
-#    Updated: 2026/10/06 18:46:05 by ssaavedr         ###   ########.fr        #
+#    Updated: 2026/10/06 19:32:17 by ssaavedr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,9 +30,9 @@ SRCS =	ft_isalpha.c \
 		ft_toupper.c \
 		ft_tolower.c \
 # 		ft_strchr.c \
+# 		ft_memchr.c \
 # 		ft_strrchr.c \
 # 		ft_strncmp.c \
-# 		ft_memchr.c \
 # 		ft_strnstr.c \
 # 		ft_atoi.c \
 # 		ft_calloc.c \
