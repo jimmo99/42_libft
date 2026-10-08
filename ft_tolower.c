@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 18:39:09 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/06 18:49:14 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/08 17:39:29 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,11 @@ int	ft_tolower(int c)
 	else
 		return (c);
 }
-#include <stdio.h>
+// #include <stdio.h>
 
-int	main(void)
-{
-	int	c = '8';
+// int	main(void)
+// {
+// 	int	c = '8';
 
-	printf("%c", ft_tolower(c));
-}
+// 	printf("%c", ft_tolower(c));
+// }
