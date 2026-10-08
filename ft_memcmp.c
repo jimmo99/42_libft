@@ -1,38 +1,41 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/06 18:50:35 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/08 12:21:35 by ssaavedr         ###   ########.fr       */
+/*   Created: 2026/10/08 12:41:45 by ssaavedr          #+#    #+#             */
+/*   Updated: 2026/10/08 12:43:50 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
-	size_t			i;
-	unsigned char	uc;
+	size_t				i;
+	const unsigned char	*p1;
+	const unsigned char	*p2;
 
+	p1 = (const unsigned char *)s1;
+	p2 = (const unsigned char *)s2;
 	i = 0;
-	uc = (unsigned char)c;
-	while (s[i])
+	while (i < n)
 	{
-		if ((unsigned char)s[i] == uc)
-			return ((char *)&s[i]);
+		if (p1[i] != p2[i])
+			return (p1[i] - p2[i]);
 		i++;
 	}
-	if ((unsigned char)s[i] == uc)
-		return ((char *)&s[i]);
-	return (NULL);
+	return (0);
 }
 // #include <stdio.h>
 
+// int	ft_memcmp(const void *s1, const void *s2, size_t n);
+
 // int	main(void)
 // {
-// 	printf("%s\n", ft_strchr("Hola 42 Urduliz", '4'));
+// 	printf("%d\n", ft_memcmp("ab\0cd", "ab\0cd", 5));
+// 	printf("%d\n", ft_memcmp("ab\0cd", "ab\0cz", 5));
 // 	return (0);
 // }

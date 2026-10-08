@@ -1,38 +1,46 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/06 18:50:35 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/08 12:21:35 by ssaavedr         ###   ########.fr       */
+/*   Created: 2026/10/08 12:47:50 by ssaavedr          #+#    #+#             */
+/*   Updated: 2026/10/08 12:52:19 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
-	size_t			i;
-	unsigned char	uc;
+	size_t	i;
+	size_t	j;
 
 	i = 0;
-	uc = (unsigned char)c;
-	while (s[i])
+	if (!little[0])
+		return ((char *)big);
+	while (big[i] && i < len)
 	{
-		if ((unsigned char)s[i] == uc)
-			return ((char *)&s[i]);
+		j = 0;
+		while (big[i + j] == little[j] && (i + j) < len)
+		{
+			if (little[j + 1] == '\0')
+				return ((char *)&big[i]);
+			j++;
+		}
 		i++;
 	}
-	if ((unsigned char)s[i] == uc)
-		return ((char *)&s[i]);
 	return (NULL);
 }
 // #include <stdio.h>
 
-// int	main(void)
+// char	*ft_strnstr(const char *big, const char *little, size_t len);
+
+// 	int	main(void)
 // {
-// 	printf("%s\n", ft_strchr("Hola 42 Urduliz", '4'));
+// 	const char	*texto = "42 Urduliz Bizkaia";
+
+// 	printf("%s\n", ft_strnstr(texto, "Urduliz", 12));
 // 	return (0);
 // }

@@ -1,38 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/06 18:50:35 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/08 12:21:35 by ssaavedr         ###   ########.fr       */
+/*   Created: 2026/10/08 12:23:48 by ssaavedr          #+#    #+#             */
+/*   Updated: 2026/10/08 12:39:03 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+char	*ft_strrchr(const char *s, int c)
 {
-	size_t			i;
+	int				i;
 	unsigned char	uc;
 
-	i = 0;
 	uc = (unsigned char)c;
+	i = 0;
 	while (s[i])
+		i++;
+	while (i >= 0)
 	{
 		if ((unsigned char)s[i] == uc)
 			return ((char *)&s[i]);
-		i++;
+		i--;
 	}
-	if ((unsigned char)s[i] == uc)
-		return ((char *)&s[i]);
 	return (NULL);
 }
 // #include <stdio.h>
 
+// char	*ft_strrchr(const char *s, int c);
+
 // int	main(void)
 // {
-// 	printf("%s\n", ft_strchr("Hola 42 Urduliz", '4'));
+// 	printf("%s\n", ft_strrchr("banana", 'n'));
 // 	return (0);
 // }
