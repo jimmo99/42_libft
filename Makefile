@@ -6,7 +6,7 @@
 #    By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/01 11:14:37 by ssaavedr          #+#    #+#              #
-#    Updated: 2026/10/08 18:30:06 by ssaavedr         ###   ########.fr        #
+#    Updated: 2026/10/08 18:55:28 by ssaavedr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,7 +46,7 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	$(CC) $(CFLAGS) $(OBJS) -o $(NAME)
 
- %%.o:.c
+%%.o:.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
