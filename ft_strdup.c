@@ -6,13 +6,13 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/09 10:27:42 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/09 12:35:30 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/09 12:41:14 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strdup(const char *s);
+char	*ft_strdup(const char *s)
 {
-	
+
 }
