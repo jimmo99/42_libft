@@ -6,7 +6,7 @@
 #    By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/01 11:14:37 by ssaavedr          #+#    #+#              #
-#    Updated: 2026/10/08 18:55:28 by ssaavedr         ###   ########.fr        #
+#    Updated: 2026/10/14 16:22:10 by ssaavedr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,8 +36,9 @@ SRCS =	ft_isalpha.c \
 		ft_memcmp.c \
 		ft_strnstr.c \
 		ft_atoi.c \
-# 		ft_calloc.c \
-# 		ft_strdup.c
+		ft_calloc.c \
+		ft_strdup.c \
+
 
 OBJS = $(SRCS:.c=.o)
 
