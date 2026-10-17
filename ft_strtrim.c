@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 18:14:27 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/16 15:56:28 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/17 20:17:07 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,16 +28,36 @@ static int	ft_isinset(char c, char const *set)
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	size_t	slen;
-	int i;
-	int j;
+	size_t	start;
+	size_t	end;
+	char	*newstring;
+	size_t	i;
 
+	if (!s1 || !set)
+		return (NULL);
+	start = 0;
+	while (s1[start] && ft_isinset(s1[start], set))
+		start++;
+	end = ft_strlen(s1);
+	while (end > start && ft_isinset(s1[end - 1], set))
+		end--;
+	newstring = malloc(end - start + 1);
+	if (!newstring)
+		return (NULL);
 	i = 0;
-	slen = ft_strlen(s1); //obtenemos medida s1
-	while(i < slen)
+	while (start < end)
 	{
-		if (ft_isinset(s1[i], set))
-			
+		newstring[i] = s1[start];
+		i++;
+		start++;
 	}
-	set[i]
+	newstring[i] = '\0';
+	return (newstring);
 }
+// #include <stdio.h>
+
+// int	main(void)
+// {
+// 	printf("%s", ft_strtrim("---hola-----", "-h"));
+// 	return (0);
+// }
