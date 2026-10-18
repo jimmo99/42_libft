@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 19:28:36 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/08 12:19:54 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:07:34 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,12 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// int	main(void)
-// {
-// 	char	*cadena = "Hola\0Urduliz";
+int	main(void)
+{
+	char	*cadena = "Hola\0Urduliz";
 
-// 	printf("%s\n", (char *)ft_memchr(cadena, 'u', 12));
-// 	return (0);
-// }
+	printf("%s\n", (char *)ft_memchr(cadena, 'u', 12));
+	return (0);
+} */

@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/09 10:27:42 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/12 13:03:21 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:22:13 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,17 +25,17 @@ char	*ft_strdup(const char *s)
 	return (dup);
 }
 
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// int	main(void)
-// {
-// 	char	*orig = "Hellow 42";
-// 	char	*copia;
+int	main(void)
+{
+	char	*orig = "Hellow 42";
+	char	*copia;
 
-// 	copia = ft_strdup(orig);
-// 	printf("Original: %s\n", orig);
-// 	printf("Copia:    %s\n", copia);
-// 	free(copia);
-// 	return (0);
+	copia = ft_strdup(orig);
+	printf("Original: %s\n", orig);
+	printf("Copia:    %s\n", copia);
+	free(copia);
+	return (0);
 
-// }
+} */

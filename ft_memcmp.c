@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 12:41:45 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/08 12:43:50 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:07:41 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,13 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// int	ft_memcmp(const void *s1, const void *s2, size_t n);
+int	ft_memcmp(const void *s1, const void *s2, size_t n);
 
-// int	main(void)
-// {
-// 	printf("%d\n", ft_memcmp("ab\0cd", "ab\0cd", 5));
-// 	printf("%d\n", ft_memcmp("ab\0cd", "ab\0cz", 5));
-// 	return (0);
-// }
+int	main(void)
+{
+	printf("%d\n", ft_memcmp("ab\0cd", "ab\0cd", 5));
+	printf("%d\n", ft_memcmp("ab\0cd", "ab\0cz", 5));
+	return (0);
+} */

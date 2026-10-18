@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 18:14:56 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/06 18:41:37 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:29:11 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,11 @@ int	ft_toupper(int c)
 	else
 		return (c);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// int	main(void)
-// {
-// 	int	c = '?';
+int	main(void)
+{
+	int	c = '?';
 
-// 	printf("%c", (ft_toupper(c)));
-// }
+	printf("%c", (ft_toupper(c)));
+} */

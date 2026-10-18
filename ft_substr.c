@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 14:44:43 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/14 17:59:40 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:29:00 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,11 +30,11 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(sub, &s [start], len +1);
 	return (sub);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// int	main(void)
-// {
-// 	char const	*s = "HELLO WORLD";
+int	main(void)
+{
+	char const	*s = "HELLO WORLD";
 
-// 	printf("%s", ft_substr(s, 3, 5));
-// }
+	printf("%s", ft_substr(s, 3, 5));
+} */

@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 12:47:50 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/08 12:52:19 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:28:39 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,14 +33,14 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// char	*ft_strnstr(const char *big, const char *little, size_t len);
+char	*ft_strnstr(const char *big, const char *little, size_t len);
 
-// 	int	main(void)
-// {
-// 	const char	*texto = "42 Urduliz Bizkaia";
+	int	main(void)
+{
+	const char	*texto = "42 Urduliz Bizkaia";
 
-// 	printf("%s\n", ft_strnstr(texto, "Urduliz", 12));
-// 	return (0);
-// }
+	printf("%s\n", ft_strnstr(texto, "Urduliz", 12));
+	return (0);
+} */

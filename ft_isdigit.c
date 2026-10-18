@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 13:10:41 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/02 15:34:24 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:07:21 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,11 @@ int	ft_isdigit(int c)
 	}
 	return (0);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// int	main(void)
-// {
-// 	int	c = '5';
+int	main(void)
+{
+	int	c = '5';
 
-// 	printf("%d", ft_isdigit(c));
-// }
+	printf("%d", ft_isdigit(c));
+} */

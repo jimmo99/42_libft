@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 18:14:27 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/17 20:17:07 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:28:52 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,10 +54,10 @@ char	*ft_strtrim(char const *s1, char const *set)
 	newstring[i] = '\0';
 	return (newstring);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// int	main(void)
-// {
-// 	printf("%s", ft_strtrim("---hola-----", "-h"));
-// 	return (0);
-// }
+int	main(void)
+{
+	printf("%s", ft_strtrim("---hola-----", "-h"));
+	return (0);
+} */

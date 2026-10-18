@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 13:26:01 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/01 14:00:35 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:05:17 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,11 @@ int	ft_ascii(int c)
 	}
 	return (0);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// int	main(void)
-// {
-// 	int	c = '4';
+int	main(void)
+{
+	int	c = '4';
 
-// printf("%d", ft_ascii(c));
-// }
+printf("%d", ft_ascii(c));
+} */

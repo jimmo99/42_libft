@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 12:52:39 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/08 12:56:52 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:06:23 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,11 +36,11 @@ int	ft_atoi(const char *str)
 	}
 	return (result * sign);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// int	main(void)
-// {
-// 	printf("%d\n", ft_atoi("   -42urduliz"));
-// 	printf("%d\n", ft_atoi("   +1337"));
-// 	return (0);
-// }
+int	main(void)
+{
+	printf("%d\n", ft_atoi("   -42urduliz"));
+	printf("%d\n", ft_atoi("   +1337"));
+	return (0);
+} */

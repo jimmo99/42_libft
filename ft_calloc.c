@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/09 10:27:22 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/12 12:51:09 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:06:38 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,16 +26,16 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	ft_bzero(ptr, total_size);
 	return (ptr);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// int main(void)
-// {
-// 	char *str;
+int main(void)
+{
+	char *str;
 
-// 	str = ft_calloc(10, 1);
+	str = ft_calloc(10, 1);
 
-// 	printf("Primer byte: %d\n", str[0]);
+	printf("Primer byte: %d\n", str[0]);
 
-// 	free(str);
-// 	return (0);
-// }
+	free(str);
+	return (0);
+} */

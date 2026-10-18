@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/08 12:23:48 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/16 15:52:22 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:28:45 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,12 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// char	*ft_strrchr(const char *s, int c);
+char	*ft_strrchr(const char *s, int c);
 
-// int	main(void)
-// {
-// 	printf("%s\n", ft_strrchr("banana", 'n'));
-// 	return (0);
-// }
+int	main(void)
+{
+	printf("%s\n", ft_strrchr("banana", 'n'));
+	return (0);
+} */

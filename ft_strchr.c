@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 18:50:35 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/08 12:21:35 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:11:01 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,10 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&s[i]);
 	return (NULL);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// int	main(void)
-// {
-// 	printf("%s\n", ft_strchr("Hola 42 Urduliz", '4'));
-// 	return (0);
-// }
+int	main(void)
+{
+	printf("%s\n", ft_strchr("Hola 42 Urduliz", '4'));
+	return (0);
+} */

@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/04 14:23:29 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/04 18:09:11 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:08:48 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,15 +23,15 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// int	main(void)
-// {
-// size_t n = 9;
-// char	src[] = "Hello my friend";
-// char	dest[50];
+int	main(void)
+{
+size_t n = 9;
+char	src[] = "Hello my friend";
+char	dest[50];
 
-// printf("%s\n", src);
-// ft_memcpy(dest, src, n);
-// printf("%s\n", dest);
-// }
+printf("%s\n", src);
+ft_memcpy(dest, src, n);
+printf("%s\n", dest);
+} */

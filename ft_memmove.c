@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/04 15:59:35 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/04 18:44:48 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/18 19:09:27 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,13 +37,13 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-// #include <stdio.h>
+/* #include <stdio.h>
 
-// int	main(void)
-// {
-// char	str[50] = "ABCDEFGH";
+int	main(void)
+{
+char	str[50] = "ABCDEFGH";
 
-// printf("%s\n", str);
-// ft_memmove(str + 2, str, 4);
-// printf("%s\n", str);
-// }
+printf("%s\n", str);
+ft_memmove(str + 2, str, 4);
+printf("%s\n", str);
+} */
