@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 18:46:11 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/21 10:47:33 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/21 11:14:41 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -121,5 +121,19 @@ int	main(void)
 		free(array[i]);
 		i++;
 	}
+	free(array);
+} */
+/* #include <stdio.h>
+
+int	main(void)
+{
+	char	**array;
+
+	array = ft_split("Hello&world", '&');
+	printf("%s\n", array[0]);
+	printf("%s\n", array[1]);
+
+	free(array[0]);
+	free(array[1]);
 	free(array);
 } */
