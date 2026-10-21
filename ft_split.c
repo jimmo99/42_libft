@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 18:46:11 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/19 23:35:22 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/21 10:47:33 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -112,6 +112,14 @@ int	main(void)
 
 	array = ft_split("Hello&world", '&');
 
-	printf("%s\n", array[0]);
-	printf("%s\n", array[1]);
+	int	i;
+
+	i = 0;
+	while (array[i])
+	{
+		printf("%s\n", array[i]);
+		free(array[i]);
+		i++;
+	}
+	free(array);
 } */
