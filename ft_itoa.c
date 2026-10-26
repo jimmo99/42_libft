@@ -6,13 +6,13 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 23:35:57 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/21 10:50:26 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/26 15:27:45 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_itoa(int n);
+char	*ft_itoa(int n)
 {
-	
+
 }
