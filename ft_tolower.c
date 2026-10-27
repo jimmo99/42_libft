@@ -6,11 +6,11 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/06 18:39:09 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/18 19:29:05 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/27 12:09:48 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 int	ft_tolower(int c)
 {

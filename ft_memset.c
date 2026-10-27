@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/02 16:53:48 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/18 19:10:13 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/27 12:04:37 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	*ft_memset(void *s, int c, size_t n)
 		((unsigned char *)s)[i] = (unsigned char)c;
 		i++;
 	}
-	return (0);
+	return (s);
 }
 /* #include <stdio.h>
 int	main(void)
