@@ -6,7 +6,7 @@
 /*   By: ssaavedr <ssaavedr@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/09 10:27:42 by ssaavedr          #+#    #+#             */
-/*   Updated: 2026/10/18 19:22:13 by ssaavedr         ###   ########.fr       */
+/*   Updated: 2026/10/30 14:45:00 by ssaavedr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_strdup(const char *s)
 	size_t	len;
 
 	len = ft_strlen(s) + 1;
-	dup = malloc(len);
+	dup = malloc(len * sizeof (char));
 	if (!dup)
 		return (NULL);
 	ft_memcpy(dup, s, len);
